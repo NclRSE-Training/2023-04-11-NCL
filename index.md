@@ -1,8 +1,5 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-# More detailed instructions (including how to fill these variables for an
-# online workshop) are available at
-# https://carpentries.github.io/workshop-template/customization/index.html
 venue: "King George VI Building, Room 1.71B, Newcastle University"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "Newcastle University"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
@@ -315,8 +312,8 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="https://forms.office.com/e/rX6ERJYt2n">Pre-workshop Survey</a></p>
-<p><a href="https://forms.office.com/e/jpmCzJj7Hs">Post-workshop Survey</a></p>
+<p><a href="https://forms.office.com/e/hmV32ArjbP">Pre-workshop Survey</a></p>
+<p><a href="">Post-workshop Survey</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
